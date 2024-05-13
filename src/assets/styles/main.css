@@ -1,0 +1,7 @@
+/* basics */
+@import './basics/base.css';
+@import './basics/layout.css';
+
+/* views */
+@import './views/header.css';
+@import './views/hero.css';

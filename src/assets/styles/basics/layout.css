@@ -1,0 +1,30 @@
+.main-layout {
+    display: grid;
+    grid-template-columns: minmax(350px, auto) 1fr minmax(350px, auto);
+
+    >* {
+        grid-column: 2;
+    }
+}
+
+.full {
+    grid-column: 1 / -1;
+}
+
+
+/* media query */
+@media (max-width: 1180px) {
+    .main-layout {
+        grid-template-columns: minmax(150px, auto) 1fr minmax(150px, auto);
+    }
+}
+
+@media (max-width: 768px) {
+    .main-layout {
+        grid-template-columns: 1fr;
+        
+        > * {
+            grid-column: 1;
+        }
+    }
+}

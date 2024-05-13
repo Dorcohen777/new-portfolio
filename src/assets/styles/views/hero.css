@@ -1,0 +1,94 @@
+.hero-container {
+    height: calc(100vh - 59.438px);
+}
+
+.hero-section {
+    background-color: #000823;
+}
+
+.my-bio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+    overflow: hidden; /* Added overflow: hidden */
+}
+
+.my-bio-content {
+    position: relative;
+    z-index: 5;
+    padding: 1rem 5rem;
+    border-radius: 0.3rem;
+    opacity: 0.9;
+    background-color: transparent;
+    backdrop-filter: blur(35px);
+    color: #F6D3B7;
+    font-size: 2rem;
+}
+
+.scroll-container {
+    width: 30px;
+    height: 90px;
+    border-radius: 0.9rem;
+    background-color: #F6D3B7;
+    position: absolute;
+    right: 15%;
+    bottom: 13%;
+}
+
+.dot {
+    background-color: #000823;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    top: 17%;
+    left: calc(50% - 6px);
+    position: relative;
+    animation: dot-animation 4s infinite ease-in-out;
+}
+
+.hero-img-container {
+    max-width: 50%;
+    position: absolute;
+    overflow: hidden;
+    max-height: 90%;
+    margin-bottom: 130px;
+}
+
+.hero-img {
+    width: 100%;
+    animation: rotate-animation 59s infinite ease;
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+@keyframes dot-animation {
+
+    0% {
+        opacity: 1;
+        top: 17%;
+    }
+
+    50% {
+        top: 70%;
+        opacity: 0;
+    }
+
+    100% {
+        top: 17%;
+        opacity: 0;
+    }
+}
