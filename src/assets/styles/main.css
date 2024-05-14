@@ -5,3 +5,6 @@
 /* views */
 @import './views/header.css';
 @import './views/hero.css';
+@import './views/about.css';
+@import './views/projects.css';
+@import './views/img-carousel.css'

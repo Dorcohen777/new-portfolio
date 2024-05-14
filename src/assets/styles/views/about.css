@@ -1,0 +1,61 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 200px 0;
+}
+
+.about-info-container {
+    width: 50%;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+
+    h1 {
+        font-size: 4rem;
+        margin: 0;
+        padding-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+.about-me-content {
+    color: #DEBFA8;
+}
+
+.about-img-container {
+    width: 50%;
+}
+
+.my-image {
+    max-width: 60%;
+    border-radius: 1rem;
+    float: right;
+}
+
+/* blub */
+
+.blub {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+    background-color: #fff;
+    animation: changeShape 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes changeShape {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
