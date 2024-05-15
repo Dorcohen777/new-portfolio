@@ -2,28 +2,50 @@ import me from '../assets/imgs/me1.jpg'
 
 //splt js 
 import splitFunction from 'spltjs';
-
 import anime from 'animejs';
+
 
 
 // icons
 import { FaPhoneSquare } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export function About() {
+    const revealRef = useRef();
+    const [hasAnimated, setHasAnimated] = useState(false);
 
     useEffect(() => {
-        splitFunction({ target: '.splt', reveal: true });
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
 
-        anime({
-            targets: '.reveal',
-            translateY: [100, 0],
-            opacity: [0, 1],
-            delay: anime.stagger(50),
-            easing: 'easeOutExpo'
+                if (entry.isIntersecting && !hasAnimated) {
+
+                    splitFunction({ target: '.splt', reveal: true });
+                    anime({
+                        targets: '.reveal',
+                        translateY: [100, 0],
+                        opacity: [0, 1],
+                        delay: anime.stagger(30),
+                        easing: 'easeOutExpo'
+                    });
+                    setHasAnimated(true); // Set the state to true after the animation
+                }
+            });
         });
-    }, []);
+
+        if (revealRef.current) {
+            observer.observe(revealRef.current);
+        }
+
+        // Cleanup function to disconnect the observer
+        return () => {
+            if (revealRef.current) {
+                observer.disconnect();
+            }
+        };
+    }, [hasAnimated]);
+
 
     return (
 
@@ -34,13 +56,13 @@ export function About() {
                 <div className='about-info-container'>
 
                     <div className="about-me-content">
-                        <h1 className='splt'>Who Am I?</h1>
-                        <p>Nice to meet you :) i'm Dor a passionate full-stack web developer, i love what i do and i'm always trying to improve.</p> <br />
-                        <p>I love to work, have good communication skills, attention to detail, and good problem-solving and technical skills</p> <br />
-                        <p>Contact Information :) </p>
-                        <div className='contact-information-container'>
+                        <h1 className='splt' ref={revealRef}>Who Am I?</h1>
+                        <p >Nice to meet you :) i'm Dor a passionate full-stack web developer, i love what i do and i'm always trying to improve.</p> <br />
+                        <p >I love to work, have good communication skills, attention to detail, and good problem-solving and technical skills</p> <br />
+                        <p >Contact Information</p>
+                        <div className='contact-information-container ' >
                             <p><FaPhoneSquare /> 053-7171650 </p>
-                            <p><MdOutlineAlternateEmail /> dorcohen1338@gmail.com</p>
+                            <p><MdOutlineAlternateEmail /> dorcohen1337@gmail.com</p>
                         </div>
                     </div>
 
