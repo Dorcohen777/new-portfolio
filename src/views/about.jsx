@@ -26,7 +26,8 @@ export function About() {
                 { value: 1, easing: 'easeInOutQuad', duration: 1200 }
             ],
             delay: anime.stagger(200, { grid: [14, 5], from: 'center' }),
-            loop: false // Set to false if you don't want it to loop
+            loop: false,
+
         });
 
         // IntersectionObserver setup
@@ -44,7 +45,7 @@ export function About() {
                     setHasAnimated(true); // Set the state to true after the animation
                 }
             });
-        });
+        }, { threshold: 1 });
 
         if (revealRef.current) {
             observer.observe(revealRef.current);
@@ -85,11 +86,11 @@ export function About() {
                     <img src={me} className='my-image' />
 
                     <div className='grid-container' ref={gridRef}>
-                    {[...Array(14 * 5)].map((_, i) => <div key={i} className='grid-element' />)}
-                </div>
+                        {[...Array(14 * 5)].map((_, i) => <div key={i} className='grid-element' />)}
+                    </div>
                 </div>
 
-                
+
             </div>
         </section>
     )
