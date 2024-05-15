@@ -41,33 +41,35 @@
         display: flex;
         gap: 1rem;
         margin-block-start: 0.5rem;
+
+        > a button {
+            padding: 0.5rem 1rem;
+            border-radius: 0.3rem;
+            cursor: pointer;
+            transition: 0.2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
     }
 
     .try-live-btn {
-        padding: 0.5rem 1rem;
         background-color: #FFF5DA;
         color: #000823;
         border: none;
-        border-radius: 0.3rem;
-        transition: 0.2s ease-in-out;
     }
 
     .github-btn {
-        padding: 0.4rem 1rem;
         background-color: transparent;
         border: solid 2px #6CCEB9;
         color: #6CCEB9;
-        border-radius: 0.3rem;
-        transition: 0.2s ease-in-out;
     }
 
     .youtube-btn {
-        padding: 0.4rem 1rem;
         background-color: rgba(242, 70, 70, 0.849);
         color: white;
         border: none;
-        border-radius: 0.3rem;
-        transition: 0.2s ease-in-out;
     }
 
     .project-tag {
@@ -88,6 +90,7 @@
         width: fit-content;
         padding: 0.6rem 1rem;
         border-radius: 0.3rem;
+
         img {
             display: flex;
             flex-direction: column;

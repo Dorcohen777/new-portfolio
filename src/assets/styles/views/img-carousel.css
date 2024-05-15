@@ -10,7 +10,7 @@
        max-width: 450px;
        max-height: 400px;
        aspect-ratio: 8/5;
-       object-fit: contain;
+       object-fit: cover;
        border-radius: 0.5rem;
        width: 100%;
        height: 100%;

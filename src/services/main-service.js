@@ -88,21 +88,6 @@ const projectsData = [
           'https://i.postimg.cc/63YN6nFG/mine1.jpg',
           'https://i.postimg.cc/7YCyDC9f/mine2.jpg',
        ],
-    },
-    {
-       tag: 'GAME',
-       title: 'Meme Generator',
-       description:
-          'The Meme Generator Game is an interactive and entertaining web application that empowers users to unleash their creativity by creating and sharing hilarious memes. This project combines the elements of gaming and meme culture to provide a unique and engaging user experience.',
-       tech: ['html', 'css', 'javascript'],
-       links: [
-          'https://dorcohen777.github.io/memegenerator/',
-          'https://github.com/Dorcohen777/memegenerator',
-       ],
-       imgs: [
-          'https://i.postimg.cc/3JnqV3mn/meme1.jpg',
-          'https://i.postimg.cc/vBsXDK54/meme2.jpg',
-       ],
     }
  ]
  

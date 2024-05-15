@@ -22,7 +22,7 @@
 @media (max-width: 768px) {
     .main-layout {
         grid-template-columns: 1fr;
-        
+        padding: 0 1rem;
         > * {
             grid-column: 1;
         }

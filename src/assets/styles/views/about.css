@@ -37,6 +37,12 @@
     float: right;
 }
 
+.contact-information-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    gap: 0.5rem;
+}
 /* blub */
 
 .blub {
