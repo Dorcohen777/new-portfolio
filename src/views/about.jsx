@@ -45,7 +45,7 @@ export function About() {
                     setHasAnimated(true); // Set the state to true after the animation
                 }
             });
-        }, { threshold: 1 });
+        }, { threshold: 0 });
 
         if (revealRef.current) {
             observer.observe(revealRef.current);
