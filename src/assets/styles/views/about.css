@@ -125,6 +125,10 @@
         gap: 6rem;
     }
 
+    .about-info-container {
+        width: 100%;
+    }
+
     .about-me-content h1 {
         font-size: 8vw;
     }
