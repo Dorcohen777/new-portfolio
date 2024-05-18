@@ -3,7 +3,7 @@ import splitFunction from 'spltjs';
 import anime from 'animejs';
 
 import { useEffect, useRef, useState } from 'react';
-import heroImg from '../assets/imgs/hero-img-nobg.png'
+import heroImg from '../assets/imgs/hero-img-nobg-op.png'
 
 // views
 import { About } from './about'

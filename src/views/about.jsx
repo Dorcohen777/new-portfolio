@@ -1,4 +1,4 @@
-import me from '../assets/imgs/me1.jpg'
+import me from '../assets/imgs/me1op.jpg'
 
 //splt js 
 import splitFunction from 'spltjs';
