@@ -13,13 +13,13 @@
 
 
 /* media query */
-@media (max-width: 1180px) {
+@media (max-width: 1380px) {
     .main-layout {
         grid-template-columns: minmax(150px, auto) 1fr minmax(150px, auto);
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
     .main-layout {
         grid-template-columns: 1fr;
         padding: 0 1rem;

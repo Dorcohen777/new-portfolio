@@ -24,7 +24,7 @@ export function Hero() {
                         targets: '.reveal',
                         translateY: [200, 0],
                         opacity: [0, 1],
-                        delay: anime.stagger(20),
+                        delay: anime.stagger(10),
                         easing: 'easeOutExpo'
                     });
                     setHasHeroAnimated(true); // Set the state to true after the animation

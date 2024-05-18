@@ -58,7 +58,7 @@
     height: 9px;
     border-radius: 50%;
     top: 17%;
-    left: calc(49% - 5px);
+    left: calc(50% - 5px);
     position: relative;
     animation: dot-animation 3s infinite ease-in-out;
 }

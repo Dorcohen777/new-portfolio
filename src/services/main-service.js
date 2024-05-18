@@ -17,6 +17,20 @@ const projectsData = [
        tech: ['react', 'html', 'javascript', , 'mongodb', 'nodejs', 'sass'],
     },
     {
+      tag: 'Landing Page',
+      title: 'Cripto Blinders',
+      description: 'Landing page i built for company i work for - Axia Investments',
+      links: [
+         'https://go.dailyinvesting.net/pt-br/criptoblindersun/'
+      ],
+      imgs: [
+         'https://i.postimg.cc/j58D9QZk/cripto1.png',
+         'https://i.postimg.cc/C1MZm6Hq/cripto2.png',
+         'https://i.postimg.cc/KYDk7yLb/cripto3.png',
+      ],
+      tech: ['html', 'css', 'wordpress'],
+    },
+    {
        tag: 'STOCK MARKET TRACKING PLATFORM',
        title: 'TradeSmart',
        description:
@@ -57,6 +71,31 @@ const projectsData = [
           'https://i.postimg.cc/pXTnvtps/medk2.jpg',
           'https://i.postimg.cc/kXpRXhSq/medk3.jpg',
        ],
+    },
+    {
+      tag: 'Landing Page',
+      title: 'Amazon',
+      description: 'Landing page i built for company i work for - Axia Investments',
+      links: [
+         'https://go.dailyinvesting.net/pt-br/amazon/'
+      ],
+      imgs: [
+         'https://i.postimg.cc/qqzxZ7Xy/amazon1.png',
+         'https://i.postimg.cc/xCsPRmH9/amazon2.png',
+      ],
+      tech: ['html', 'css', 'wordpress', 'javascript'],
+    },
+    {
+      tag: 'Landing Page',
+      title: 'Cemex',
+      description: 'Landing page i built for company i work for - Axia Investments',
+      links: [
+         'https://go.dailyinvesting.net/es/cemex/'
+      ],
+      imgs: [
+         'https://i.postimg.cc/43yychJ6/cemex1.png',
+      ],
+      tech: ['html', 'css', 'wordpress', 'javascript'],
     },
     {
        tag: 'MULTI APP',
