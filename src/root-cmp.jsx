@@ -12,7 +12,7 @@ export function RootCmp() {
                 <Header />
                 <main >
                     <Routes>
-                        <Route path='/' element={<Hero />} />
+                        <Route path='/new-portfolio' element={<Hero />} />
                     </Routes>
                 </main>
             </section>

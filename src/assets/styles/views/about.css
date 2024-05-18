@@ -32,6 +32,11 @@
     flex-direction: column;
     padding: 1rem 0;
     gap: 0.5rem;
+
+    >* {
+        word-break: break-all;
+        white-space: normal;
+    }
 }
 
 .contact-title {
@@ -68,6 +73,21 @@
     transform: rotate(-90deg)
 }
 
+/* cotnact buttons */
+.button-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.img-contact {
+    max-width: 40px;
+    cursor: pointer;
+}
+
+.img-contact:hover {
+    transform: scale(1.05);
+}
+
 /* Individual grid cells */
 .grid-element {
     background-color: #00D672;
@@ -94,5 +114,60 @@
 
     100% {
         opacity: 0;
+    }
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 725px) {
+    .about-container {
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+    .about-me-content h1 {
+        font-size: 8vw;
+    }
+
+    .about-me-content p {
+        font-size: 1.0rem;
+    }
+
+    .my-image {
+        max-width: 100%;
+    }
+
+    .grid-container {
+        position: absolute;
+        z-index: 0;
+        top: 20%;
+        left: -93px;
+        right: 0;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(14, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        max-width: 100%;
+        height: 60%;
+        gap: 5px;
+        transform: rotate(-90deg);
+    }
+}
+
+@media (max-width: 400px) {
+    .grid-container {
+        position: absolute;
+        z-index: 0;
+        top: 20%;
+        left: -52px;
+        right: 0;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(14, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        max-width: 100%;
+        height: 60%;
+        gap: 5px;
+        transform: rotate(-90deg);
     }
 }

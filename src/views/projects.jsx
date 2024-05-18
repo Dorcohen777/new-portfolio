@@ -32,7 +32,7 @@ export function Projects() {
             Projects.
          </motion.h2>
 
-         <div className='projects-container'>
+         <div className='projects-container' id='projects'>
             {projects.map((project, idx) => {
                return (
                   <article key={idx} className='project-card'>

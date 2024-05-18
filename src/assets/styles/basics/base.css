@@ -34,3 +34,14 @@ img {
 .align-center {
     align-items: center;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  @font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(./fonts/Fontspring-DEMO-apparel-light.otf) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }

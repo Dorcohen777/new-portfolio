@@ -39,6 +39,7 @@
 
     .project-btns-container {
         display: flex;
+        flex-wrap: wrap;
         gap: 1rem;
         margin-block-start: 0.5rem;
 

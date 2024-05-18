@@ -1,5 +1,6 @@
 import me from '../assets/imgs/me1op.jpg'
-
+import github from '../assets/imgs/github.png'
+import linkedin from '../assets/imgs/linkedin.png'
 //splt js 
 import splitFunction from 'spltjs';
 import anime from 'animejs';
@@ -64,7 +65,7 @@ export function About() {
 
         <section className="main-layout">
 
-            <div className="about-container">
+            <div className="about-container" id='about'>
 
                 <div className='about-info-container'>
 
@@ -74,8 +75,12 @@ export function About() {
                         <p >I love to work, have good communication skills, attention to detail, and good problem-solving and technical skills</p> <br />
                         <p className='contact-title'>Contact Information</p>
                         <div className='contact-information-container' >
-                            <p><FaPhoneSquare /> 053-7171650 </p>
+                            <p> <FaPhoneSquare /> 053-7171650 </p>
                             <p><MdOutlineAlternateEmail /> dorcohen1337@gmail.com</p>
+                        </div>
+                        <div className="button-container">
+                            <a href='https://github.com/Dorcohen777' target='_blank'> <img className='img-contact' src={github}/> </a>
+                            <a href='https://www.linkedin.com/in/dor-cohen-618745225/' target='_blank'> <img className='img-contact' src={linkedin}/> </a>
                         </div>
                     </div>
 

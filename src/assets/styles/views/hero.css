@@ -94,3 +94,11 @@
         opacity: 0;
     }
 }
+
+/* MEDIA QUERY */
+
+@media (max-width: 1500px) {
+    .hero-title {
+        font-size: 3vw;
+    }
+}
