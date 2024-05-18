@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/new-portfolio/static/css/main.a5bf521f.css",
+    "main.js": "/new-portfolio/static/js/main.93e437bf.js",
+    "static/media/me1op.jpg": "/new-portfolio/static/media/me1op.2edb18689362fa05dd6b.jpg",
+    "static/media/hero-img-nobg-op.png": "/new-portfolio/static/media/hero-img-nobg-op.00b6f41980120fe2a6ba.png",
+    "index.html": "/new-portfolio/index.html",
+    "main.a5bf521f.css.map": "/new-portfolio/static/css/main.a5bf521f.css.map",
+    "main.93e437bf.js.map": "/new-portfolio/static/js/main.93e437bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5bf521f.css",
+    "static/js/main.93e437bf.js"
+  ]
+}
