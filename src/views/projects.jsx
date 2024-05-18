@@ -30,8 +30,8 @@ export function Projects() {
             whileInView={{ opacity: 1, transition: { delay: 0.8 }, y: 0 }}
          >
             Projects.
+            <h3 className='project-note'>Note there is more projects i develop this is just few...</h3>
          </motion.h2>
-
          <div className='projects-container' id='projects'>
             {projects.map((project, idx) => {
                return (
@@ -102,9 +102,12 @@ export function Projects() {
                      <div className='project-images'>
                         <ImgCarousel img={project.imgs} />
                      </div>
+
                   </article>
+
                )
             })}
+
          </div>
       </section>
    )
