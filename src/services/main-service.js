@@ -19,7 +19,7 @@ const projectsData = [
     {
       tag: 'Landing Page',
       title: 'Cripto Blinders',
-      description: 'Landing page i built for company i work for - Axia Investments',
+      description: 'Landing page i develop for company i work for - Axia Investments',
       links: [
          'https://go.dailyinvesting.net/pt-br/criptoblindersun/'
       ],
@@ -27,6 +27,19 @@ const projectsData = [
          'https://i.postimg.cc/j58D9QZk/cripto1.png',
          'https://i.postimg.cc/C1MZm6Hq/cripto2.png',
          'https://i.postimg.cc/KYDk7yLb/cripto3.png',
+      ],
+      tech: ['html', 'css', 'wordpress'],
+    },
+    {
+      tag: 'Landing Page',
+      title: 'Amazon LP',
+      description: 'Landing page i develop for company i work for - Axia Investments',
+      links: [
+         'https://lps.dailyvesting.net/es/amazon_reworked_es/'
+      ],
+      imgs: [
+         'https://i.postimg.cc/fWmzWCTX/asdxvwee52352.png',
+         'https://i.postimg.cc/L6SHJPnW/Screenshot-2024-05-21-200854.png',
       ],
       tech: ['html', 'css', 'wordpress'],
     },
@@ -75,7 +88,7 @@ const projectsData = [
     {
       tag: 'Landing Page',
       title: 'Amazon',
-      description: 'Landing page i built for company i work for - Axia Investments',
+      description: 'Landing page i develop for company i work for - Axia Investments',
       links: [
          'https://go.dailyinvesting.net/pt-br/amazon/'
       ],
@@ -88,7 +101,7 @@ const projectsData = [
     {
       tag: 'Landing Page',
       title: 'Cemex',
-      description: 'Landing page i built for company i work for - Axia Investments',
+      description: 'Landing page i develop for company i work for - Axia Investments',
       links: [
          'https://go.dailyinvesting.net/es/cemex/'
       ],
