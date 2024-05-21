@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new-portfolio/static/css/main.12d927d3.css",
-    "main.js": "/new-portfolio/static/js/main.ce74bf5b.js",
+    "main.js": "/new-portfolio/static/js/main.51888f59.js",
     "static/media/me1op.jpg": "/new-portfolio/static/media/me1op.2edb18689362fa05dd6b.jpg",
     "static/media/hero-img-nobg-op.png": "/new-portfolio/static/media/hero-img-nobg-op.00b6f41980120fe2a6ba.png",
     "static/media/Fontspring-DEMO-apparel-light.otf": "/new-portfolio/static/media/Fontspring-DEMO-apparel-light.f462f5722f32b7d17f32.otf",
@@ -9,10 +9,10 @@
     "static/media/linkedin.png": "/new-portfolio/static/media/linkedin.31349e51e91c08f06b76.png",
     "index.html": "/new-portfolio/index.html",
     "main.12d927d3.css.map": "/new-portfolio/static/css/main.12d927d3.css.map",
-    "main.ce74bf5b.js.map": "/new-portfolio/static/js/main.ce74bf5b.js.map"
+    "main.51888f59.js.map": "/new-portfolio/static/js/main.51888f59.js.map"
   },
   "entrypoints": [
     "static/css/main.12d927d3.css",
-    "static/js/main.ce74bf5b.js"
+    "static/js/main.51888f59.js"
   ]
 }
