@@ -10,9 +10,9 @@ const projectsData = [
           'https://www.youtube.com/watch?v=toopP2GD5u4&ab_channel=onio907',
        ],
        imgs: [
-          'https://iili.io/JildydB.png',
-          'https://iili.io/JildmgV.png',
-          'https://iili.io/Jil295P.png',
+          'trell1',
+          'trell2',
+          'trell3',
        ],
        tech: ['react', 'html', 'javascript', , 'mongodb', 'nodejs', 'sass'],
     },
@@ -24,9 +24,9 @@ const projectsData = [
          'https://go.dailyinvesting.net/pt-br/criptoblindersun/'
       ],
       imgs: [
-         'https://iili.io/JilKpCg.png',
-         'https://iili.io/Jilf96J.png',
-         'https://iili.io/JilKDj1.png',
+         'cripto1',
+         'cripto2',
+         'cripto3',
       ],
       tech: ['html', 'css', 'wordpress'],
     },
@@ -38,8 +38,8 @@ const projectsData = [
          'https://lps.dailyvesting.net/es/amazon_reworked_es/'
       ],
       imgs: [
-         'https://iili.io/JilC1Fs.png',
-         'https://iili.io/JilClPn.png',
+         'amazonlp1',
+         'amazonlp2',
       ],
       tech: ['html', 'css', 'wordpress'],
     },
@@ -54,9 +54,9 @@ const projectsData = [
           'https://www.youtube.com/watch?v=IV3_cN8GbfA&ab_channel=onio907',
        ],
        imgs: [
-          'https://iili.io/JilCOPe.png',
-          'https://iili.io/JilCNV9.jpg',
-          'https://iili.io/JilCwo7.png',
+          'trade1',
+          'trade2',
+          'trade3',
        ],
        tech: ['react', 'html', 'javascript', 'sass', 'mongodb', 'nodejs'],
     },
@@ -68,8 +68,8 @@ const projectsData = [
        tech: ['html', 'css', 'wordpress'],
        links: ['https://medton-hedim.ru/'],
        imgs: [
-          'https://iili.io/JilCZla.png',
-          'https://iili.io/JilCQKg.png',
+          'medtonru1',
+          'medtonru2',
        ],
     },
     {
@@ -80,9 +80,9 @@ const projectsData = [
        tech: ['html', 'css', 'wordpress'],
        links: ['https://kids.myhearing.co.il/'],
        imgs: [
-          'https://iili.io/JilnHxI.png',
-          'https://iili.io/JilnJVt.png',
-          'https://iili.io/JilndiX.png',
+          'medtonk1',
+          'medtonk2',
+          'medtonk3',
        ],
     },
     {
@@ -93,8 +93,8 @@ const projectsData = [
          'https://go.dailyinvesting.net/pt-br/amazon/'
       ],
       imgs: [
-         'https://iili.io/JilnA0u.png',
-         'https://iili.io/Jilnufe.png',
+         'amazon1',
+         'amazon2',
       ],
       tech: ['html', 'css', 'wordpress', 'javascript'],
     },
@@ -106,7 +106,7 @@ const projectsData = [
          'https://go.dailyinvesting.net/es/cemex/'
       ],
       imgs: [
-         'https://iili.io/JilnEs1.png',
+         'cemex1',
       ],
       tech: ['html', 'css', 'wordpress', 'javascript'],
     },
@@ -120,9 +120,9 @@ const projectsData = [
           'https://github.com/Dorcohen777/AppSus',
        ],
        imgs: [
-          'https://iili.io/Jilnvst.png',
-          'https://iili.io/JilnkXI.png',
-          'https://iili.io/JilnSqX.jpg',
+          'appsus1',
+          'appsus2',
+          'appsus3',
        ],
        tech: ['react', 'html', 'javascript', 'css'],
     },
@@ -137,7 +137,7 @@ const projectsData = [
           'https://github.com/Dorcohen777/mineSweeper',
        ],
        imgs: [
-          'https://iili.io/Jilniml.png',
+          'mine1',
        ],
     }
  ]
