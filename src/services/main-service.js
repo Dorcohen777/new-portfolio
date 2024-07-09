@@ -21,7 +21,7 @@ const projectsData = [
       title: 'Cripto Blinders',
       description: 'Landing page i develop for company i work for - Axia Investments',
       links: [
-         'https://go.dailyinvesting.net/pt-br/criptoblindersun/'
+         'https://go.premiodeoleo.com/pt-br/criptoblindersun/'
       ],
       imgs: [
          'cripto1',
@@ -35,7 +35,7 @@ const projectsData = [
       title: 'Amazon LP',
       description: 'Landing page i develop for company i work for - Axia Investments',
       links: [
-         'https://lps.dailyvesting.net/es/amazon_reworked_es/'
+         'https://go.premiodeoleo.com/es/amazon_reworked_es/'
       ],
       imgs: [
          'amazonlp1',
@@ -90,7 +90,7 @@ const projectsData = [
       title: 'Amazon',
       description: 'Landing page i develop for company i work for - Axia Investments',
       links: [
-         'https://go.dailyinvesting.net/pt-br/amazon/'
+         'https://go.premiodeoleo.com/pt-br/amazon/'
       ],
       imgs: [
          'amazon1',
@@ -103,7 +103,7 @@ const projectsData = [
       title: 'Cemex',
       description: 'Landing page i develop for company i work for - Axia Investments',
       links: [
-         'https://go.dailyinvesting.net/es/cemex/'
+         'https://go.premiodeoleo.com/es/cemex/'
       ],
       imgs: [
          'cemex1',
