@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new-portfolio/static/css/main.1f097c84.css",
-    "main.js": "/new-portfolio/static/js/main.3a8ba172.js",
+    "main.js": "/new-portfolio/static/js/main.846b3970.js",
     "static/media/cripto2.png": "/new-portfolio/static/media/cripto2.20d26e03907a79857d28.png",
     "static/media/cripto1.png": "/new-portfolio/static/media/cripto1.9f002d562cab3674d3a2.png",
     "static/media/trell2.png": "/new-portfolio/static/media/trell2.da0f0da00160b9885f58.png",
@@ -10,13 +10,16 @@
     "static/media/me1op.jpg": "/new-portfolio/static/media/me1op.2edb18689362fa05dd6b.jpg",
     "static/media/medtonru1.png": "/new-portfolio/static/media/medtonru1.ddc27bd15ccd42dd1dc8.png",
     "static/media/medtonk2.png": "/new-portfolio/static/media/medtonk2.0fd6e4e688c1d4773a67.png",
+    "static/media/seekapa3.png": "/new-portfolio/static/media/seekapa3.7a053f512b0e032e0c0f.png",
     "static/media/amazonlp1.png": "/new-portfolio/static/media/amazonlp1.25a876d346a7a08d0529.png",
+    "static/media/seekapa1.png": "/new-portfolio/static/media/seekapa1.f92a0f6a5adc2a689a8e.png",
     "static/media/medtonk1.png": "/new-portfolio/static/media/medtonk1.860eb858eed5ae961dc8.png",
     "static/media/medtonru2.png": "/new-portfolio/static/media/medtonru2.2bc97066cd4a68a21163.png",
     "static/media/trell1.png": "/new-portfolio/static/media/trell1.a587a5baeece160a25db.png",
     "static/media/cripto3.png": "/new-portfolio/static/media/cripto3.2b9609cbb7a93b799374.png",
     "static/media/cemex1.png": "/new-portfolio/static/media/cemex1.958b686a0b7ff09f6c93.png",
     "static/media/amazonlp2.png": "/new-portfolio/static/media/amazonlp2.deaaeeca61e98013fe14.png",
+    "static/media/seekapa2.png": "/new-portfolio/static/media/seekapa2.76c90ab40996931d6fe2.png",
     "static/media/amazon2.png": "/new-portfolio/static/media/amazon2.f003a6a335d746ce6451.png",
     "static/media/trell3.png": "/new-portfolio/static/media/trell3.ce889171ed867ee11bbc.png",
     "static/media/appsus3.jpg": "/new-portfolio/static/media/appsus3.835c1f0a46ce162cfe2a.jpg",
@@ -32,10 +35,10 @@
     "static/media/linkedin.png": "/new-portfolio/static/media/linkedin.31349e51e91c08f06b76.png",
     "index.html": "/new-portfolio/index.html",
     "main.1f097c84.css.map": "/new-portfolio/static/css/main.1f097c84.css.map",
-    "main.3a8ba172.js.map": "/new-portfolio/static/js/main.3a8ba172.js.map"
+    "main.846b3970.js.map": "/new-portfolio/static/js/main.846b3970.js.map"
   },
   "entrypoints": [
     "static/css/main.1f097c84.css",
-    "static/js/main.3a8ba172.js"
+    "static/js/main.846b3970.js"
   ]
 }
