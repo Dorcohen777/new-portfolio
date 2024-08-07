@@ -94,6 +94,9 @@ export function Projects() {
                                     {skill === 'nodejs' && (
                                        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg' />
                                     )}
+                                    {skill === 'php' && (
+                                       <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg' />
+                                    )}
                                  </div>
                               )
                            })}

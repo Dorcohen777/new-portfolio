@@ -17,6 +17,21 @@ const projectsData = [
        tech: ['react', 'html', 'javascript', , 'mongodb', 'nodejs', 'sass'],
     },
     {
+      tag: 'WEB PROJECT',
+      title: 'Seekapa Investments',
+      description:
+         'Was responsible for developing the entire frontend of the site includeing building custom widgets & dark light mode, and solutions. responsive pixel-logic perfect design',
+      tech: ['html', 'css', 'javascript', 'php', 'wordpress'],
+      links: [
+         'https://seekapa.com/',
+      ],
+      imgs: [
+         'seekapa1',
+         'seekapa2',
+         'seekapa3',
+      ],
+   },
+    {
       tag: 'Landing Page',
       title: 'Cripto Blinders',
       description: 'Landing page i develop for company i work for - Axia Investments',
@@ -140,6 +155,7 @@ const projectsData = [
           'mine1',
        ],
     }
+    
  ]
  
  export const mainService = {

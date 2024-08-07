@@ -34,6 +34,10 @@ import trade1 from '../assets/imgs/tradesmart/trade1.png'
 import trade2 from '../assets/imgs/tradesmart/trade2.jpg'
 import trade3 from '../assets/imgs/tradesmart/trade3.png'
 
+import seekapa1 from '../assets/imgs/seekapa/seekapa1.png'
+import seekapa2 from '../assets/imgs/seekapa/seekapa2.png'
+import seekapa3 from '../assets/imgs/seekapa/seekapa3.png'
+
 
 export function ImgCarousel({ img }) {
    const [slide, setSlide] = useState(0);
@@ -109,6 +113,15 @@ export function ImgCarousel({ img }) {
             break;
          case 'trade3':
             setCurrImage(trade3);
+            break;
+         case 'seekapa1':
+            setCurrImage(seekapa1);
+            break;
+         case 'seekapa2':
+            setCurrImage(seekapa2);
+            break;
+         case 'seekapa3':
+            setCurrImage(seekapa3);
             break;
          default:
             setCurrImage(null);
