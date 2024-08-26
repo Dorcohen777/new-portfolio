@@ -126,5 +126,12 @@
 
     .carousel-container {
         width: 100% !important;
+        
+        .arrow {
+            fill: black !important;
+        }
+    }
+    .project-card {
+        margin-block-end: 8rem !important;
     }
 }

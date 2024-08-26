@@ -122,7 +122,8 @@
 @media (max-width: 725px) {
     .about-container {
         flex-direction: column;
-        gap: 6rem;
+        gap: 3rem;
+        padding: 10% 0;
     }
 
     .about-info-container {

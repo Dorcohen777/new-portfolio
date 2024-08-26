@@ -102,3 +102,20 @@
         font-size: 3vw;
     }
 }
+
+@media (max-width: 798px) {
+    .hero-title {
+        font-size: 24px;
+        
+    }
+    .hero-container {
+        max-height: 50vh;
+    }
+    .my-bio-content {
+        padding: 2rem;
+    }
+    .scroll-container {
+        bottom: 35%;
+    }
+
+}
