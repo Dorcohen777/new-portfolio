@@ -109,13 +109,9 @@
         
     }
     .hero-container {
-        max-height: 50vh;
+        max-height: 80vh;
     }
     .my-bio-content {
         padding: 2rem;
     }
-    .scroll-container {
-        bottom: 35%;
-    }
-
 }

@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react'
 import { mainService } from '../services/main-service'
-import { motion } from 'framer-motion'
+
 // cmp
 import { ImgCarousel } from './img-carousel'
+
+//gsap
+import {GsapAnimation} from '../views/gsap'
 
 export function Projects() {
    const [projects, setProjects] = useState([]) // Initialize projects as an empty array
@@ -24,14 +27,10 @@ export function Projects() {
 
    return (
       <section className='projects-section main-layout' id='projects'>
-         <motion.h2
-            className='projects-title underline-style'
-            initial={{ opacity: 0, y: -30 }}
-            whileInView={{ opacity: 1, transition: { delay: 0.8 }, y: 0 }}
-         >
-            Projects.
-            <h3 className='project-note'>Note that there are more projects I have developed, these are just a few.</h3>
-         </motion.h2>
+         <div className='fade-up'>
+            <h2 className='projects-title underline-style'> Projects. </h2>
+            <p className='project-note'>Note that there are more projects I have developed, these are just a few.</p>
+         </div>
          <div className='projects-container' id='projects'>
             {projects.map((project, idx) => {
                return (
