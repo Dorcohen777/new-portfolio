@@ -38,12 +38,13 @@ import seekapa1 from '../assets/imgs/seekapa/seekapa1.png'
 import seekapa2 from '../assets/imgs/seekapa/seekapa2.png'
 import seekapa3 from '../assets/imgs/seekapa/seekapa3.png'
 
-
 export function ImgCarousel({ img }) {
    const [slide, setSlide] = useState(0);
    const [currImage, setCurrImage] = useState(null);
+   const [isLoading, setIsLoading] = useState(true);
 
    useEffect(() => {
+      setIsLoading(true);
       switch (img[slide]) {
          case 'trell1':
             setCurrImage(trell1);
@@ -127,6 +128,8 @@ export function ImgCarousel({ img }) {
             setCurrImage(null);
             break;
       }
+      // Simulate image loading
+      setTimeout(() => setIsLoading(false), 300);
    }, [img, slide]);
 
    const nextSlide = () => {
@@ -138,31 +141,46 @@ export function ImgCarousel({ img }) {
    };
 
    return (
-      <section className='carousel-container'>
+      <section className="carousel-container">
          <BsArrowLeftCircleFill
-            className='arrow arrow-left'
+            className="arrow arrow-left"
             onClick={prevSlide}
+            aria-label="Previous slide"
          />
+         
          {img.map((_, idx) => (
-            <img
-               src={currImage}
-               key={idx}
-               className={slide === idx ? 'slide' : 'slide-hidden'}
-            />
+            <div key={idx} className={slide === idx ? 'slide' : 'slide-hidden'}>
+               {isLoading && <div className="loading-spinner" />}
+               <img
+                  src={currImage}
+                  alt={`Slide ${idx + 1}`}
+                  className={slide === idx ? 'slide' : 'slide-hidden'}
+                  style={{ opacity: isLoading ? 0 : 1 }}
+                  onLoad={() => setIsLoading(false)}
+               />
+            </div>
          ))}
+
          <BsArrowRightCircleFill
-            className='arrow arrow-right'
+            className="arrow arrow-right"
             onClick={nextSlide}
+            aria-label="Next slide"
          />
-         <span className='indicators'>
+
+         <div className="slide-counter">
+            {slide + 1} / {img.length}
+         </div>
+
+         <div className="indicators">
             {img.map((_, idx) => (
                <button
-                  className={slide === idx ? 'indicator' : 'indicator indicator-inactive'}
                   key={idx}
-                  onClick={null}
-               ></button>
+                  className={`indicator ${slide === idx ? 'active' : ''}`}
+                  onClick={() => setSlide(idx)}
+                  aria-label={`Go to slide ${idx + 1}`}
+               />
             ))}
-         </span>
+         </div>
       </section>
    );
 }

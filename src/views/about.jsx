@@ -78,8 +78,8 @@ export function About() {
                     <div className="about-me-content">
                         <h1 className='about-title fade-up' >Who Am I?</h1>
                         <div>
-                            <p>Nice to meet you :) I'm Dor, a passionate full-stack web developer. I love what I do, and I'm always trying to improve.</p>
-                            <p>I love to work, have good communication skills, attention to detail, and good problem-solving and technical skills.</p>
+                            <p>Nice to meet you! 😊 I'm Dor, a passionate full-stack web developer. I love what I do and am always striving to improve.</p>
+                            <p>I have strong work ethics, excellent communication skills, attention to detail, and a knack for problem-solving and technical challenges.</p>
                         </div>
                         <br />
                         <div>

@@ -46,19 +46,6 @@ const projectsData = [
       tech: ['html', 'css', 'wordpress'],
     },
     {
-      tag: 'Landing Page',
-      title: 'Amazon LP',
-      description: 'Landing page i develop for company i work for - Axia Investments',
-      links: [
-         'https://go.premiodeoleo.com/es/amazon_reworked_es/'
-      ],
-      imgs: [
-         'amazonlp1',
-         'amazonlp2',
-      ],
-      tech: ['html', 'css', 'wordpress'],
-    },
-    {
        tag: 'STOCK MARKET TRACKING PLATFORM',
        title: 'TradeSmart',
        description:

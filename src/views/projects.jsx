@@ -4,9 +4,6 @@ import { mainService } from '../services/main-service'
 // cmp
 import { ImgCarousel } from './img-carousel'
 
-//gsap
-import {GsapAnimation} from '../views/gsap'
-
 export function Projects() {
    const [projects, setProjects] = useState([]) // Initialize projects as an empty array
 

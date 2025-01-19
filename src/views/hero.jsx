@@ -8,6 +8,7 @@ import heroImg from '../assets/imgs/hero-img-nobg-op.png'
 // views
 import { About } from './about'
 import { Projects } from './projects'
+import PhysicsDemo from './PhysicsDemo';
 
 export function Hero() {
     const revealRef = useRef();
@@ -46,6 +47,7 @@ export function Hero() {
     return (
 
         <>
+            <PhysicsDemo />
             <section className="hero-container">
                 <div className="my-bio-container">
                     <div className='my-bio-content'>
